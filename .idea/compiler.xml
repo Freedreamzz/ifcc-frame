@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ifcc-user" />
+        <module name="ifcc-common" />
+        <module name="ifcc-common-web" />
+        <module name="ifcc-common-mybatisplus" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ifcc-common" options="-parameters" />
+      <module name="ifcc-common-mybatisplus" options="-parameters" />
+      <module name="ifcc-common-web" options="-parameters" />
+      <module name="ifcc-frame" options="-parameters" />
+      <module name="ifcc-user" options="-parameters" />
+    </option>
+  </component>
+</project>
