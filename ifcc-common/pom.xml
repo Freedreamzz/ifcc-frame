@@ -16,7 +16,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>ifc-common-starter</module>
+        <module>ifcc-common-starter</module>
         <module>ifcc-common-web</module>
         <module>ifcc-common-mybatisplus</module>
     </modules>

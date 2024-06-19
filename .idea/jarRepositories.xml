@@ -2,9 +2,19 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="internal-repo" />
+      <option name="name" value="internal-repo" />
+      <option name="url" value="http://your-internal-repo-url/repository/maven-releases/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="internal-repo" />
+      <option name="name" value="internal-repo" />
+      <option name="url" value="https://team.applychart.com/lab/api/v4/projects/1037/packages/maven/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -15,6 +25,11 @@
       <option name="id" value="central" />
       <option name="name" value="aliyun maven" />
       <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="aliyunmaven" />
+      <option name="name" value="aliyunmaven" />
+      <option name="url" value="https://maven.aliyun.com/repository/public" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -30,6 +45,11 @@
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://maven.aliyun.com/repository/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="internal-repo" />
+      <option name="name" value="internal-repo" />
+      <option name="url" value="https://team.applychart.com/lab/api/v4/projects/1037/packages/maven" />
     </remote-repository>
   </component>
 </project>
